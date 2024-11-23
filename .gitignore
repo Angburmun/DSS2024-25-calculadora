@@ -20,16 +20,9 @@
 *.rar
 
 # SOA files and folders
-/.adf/
-/.deploy/
-/build/
-/classes/
-/tmp/
-/lib/
-/META-INF/
-/WEB-INF/
-/Schemas/
-/system-jazn-data.xml
+/angelburgos-Calculadora/SOA/BPEL/.designer
+/angelburgos-Calculadora/SOA/SCA-INF
+/src/META-INF
 
 # JDeveloper-specific configuration files
 *.jws

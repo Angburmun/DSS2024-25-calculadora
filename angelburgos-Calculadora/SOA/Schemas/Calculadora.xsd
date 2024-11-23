@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.dss.com"
+            targetNamespace="http://www.dss.com" elementFormDefault="qualified">
+  <xsd:element name="PeticionSuma" type="TipoPeticionSuma"/>
+  <xsd:element name="RespuestaSuma" type="TipoRespuestaSuma"/>
+  <xsd:complexType name="TipoPeticionSuma">
+    <xsd:sequence>
+      <xsd:element name="num1" type="xsd:string"/>
+      <xsd:element name="num2" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="TipoRespuestaSuma">
+    <xsd:sequence>
+      <xsd:element name="respuesta" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

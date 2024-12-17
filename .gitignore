@@ -25,8 +25,6 @@
 /src/META-INF
 
 # JDeveloper-specific configuration files
-*.jws
-*.jpr
 *.tjs
 
 # Temporary files and backups

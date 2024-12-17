@@ -44,11 +44,6 @@
 *.trace
 *.debug
 
-# XML files unnecessary for version control
-*.bpelx
-*.bpel
-*.wsdlx
-
 # Operating system-specific files
 .DS_Store
 Thumbs.db
